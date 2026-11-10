@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+/* Print & ATS Format Stylesheet */
+@media print {
+  html, body {
+    background: #ffffff !important;
+    color: #111827 !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 11pt !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+  }
+
+  /* Hide everything outside modal */
+  body > *:not(#root) {
+    display: none !important;
+  }
+
+  /* Hide non-printable app sections */
+  #navbar,
+  #hero,
+  #about,
+  #education,
+  #competitions,
+  #experience,
+  #skills,
+  #certificates,
+  #projects,
+  #contact,
+  #footer,
+  .no-print {
+    display: none !important;
+  }
+
+  /* Make modal take full printed page cleanly */
+  #cv-modal-overlay {
+    position: static !important;
+    inset: auto !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: visible !important;
+    display: block !important;
+    backdrop-filter: none !important;
+  }
+
+  #cv-modal-container {
+    position: static !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    background: #ffffff !important;
+    color: #111827 !important;
+  }
+
+  #cv-print-area {
+    padding: 0 !important;
+    margin: 0 !important;
+    color: #111827 !important;
+  }
+
+  #cv-print-area a {
+    color: #111827 !important;
+    text-decoration: none !important;
+  }
+
+  @page {
+    size: A4;
+    margin: 12mm 15mm;
+  }
+}
+
