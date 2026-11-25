@@ -162,7 +162,6 @@ export const projectsData: ProjectItem[] = [
     tags: ['Artificial Intelligence', 'Flask', 'JavaScript', 'Vercel V0', 'The 2nd Winner IITE 2025'],
     role: 'Lead Developer & AI Architect',
     year: 'Okt 2025',
-    liveUrl: 'https://www.linkedin.com/in/ihsan-nafis-hidayat-4a3334274/',
     githubUrl: 'https://github.com/IhsanNafis123',
     image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80',
     highlights: [
@@ -180,7 +179,6 @@ export const projectsData: ProjectItem[] = [
     tags: ['Laravel', 'PHP', 'MySQL', 'SQL', 'Pengembangan Web'],
     role: 'Backend & Full-Stack Developer',
     year: 'Agt 2026 – Sekarang',
-    liveUrl: 'https://www.linkedin.com/in/ihsan-nafis-hidayat-4a3334274/',
     githubUrl: 'https://github.com/IhsanNafis123',
     image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80',
     highlights: [
@@ -198,7 +196,6 @@ export const projectsData: ProjectItem[] = [
     tags: ['Flutter', 'Flask', 'MongoDB', 'API Layanan Web', 'Generative AI'],
     role: 'Full-Stack & AI Engineer',
     year: 'Feb 2026 – Jun 2026',
-    liveUrl: 'https://www.linkedin.com/in/ihsan-nafis-hidayat-4a3334274/',
     githubUrl: 'https://github.com/IhsanNafis123',
     image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80',
     highlights: [
@@ -216,7 +213,6 @@ export const projectsData: ProjectItem[] = [
     tags: ['Laravel', 'PHP', 'JavaScript', 'MySQL', 'SQL'],
     role: 'Full-Stack Developer',
     year: 'Jul 2026 – Agt 2026',
-    liveUrl: 'https://www.linkedin.com/in/ihsan-nafis-hidayat-4a3334274/',
     githubUrl: 'https://github.com/IhsanNafis123',
     image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80',
     highlights: [
@@ -234,7 +230,6 @@ export const projectsData: ProjectItem[] = [
     tags: ['React.js', 'Next.js', 'JavaScript', 'Website Building', 'DINUSFEST 2026'],
     role: 'Frontend Architect & UI Designer',
     year: 'Jan 2026 – Feb 2026',
-    liveUrl: 'https://www.linkedin.com/in/ihsan-nafis-hidayat-4a3334274/',
     githubUrl: 'https://github.com/IhsanNafis123',
     image: 'https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=800&q=80',
     highlights: [
@@ -252,7 +247,6 @@ export const projectsData: ProjectItem[] = [
     tags: ['React.js', 'Next.js', 'MySQL', 'Pengembangan Web', 'Tailwind CSS'],
     role: 'Frontend Developer',
     year: 'Feb 2026 – Mar 2026',
-    liveUrl: 'https://www.linkedin.com/in/ihsan-nafis-hidayat-4a3334274/',
     githubUrl: 'https://github.com/IhsanNafis123',
     image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80',
     highlights: [
